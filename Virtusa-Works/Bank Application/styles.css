@@ -1,0 +1,53 @@
+﻿h1 {
+    height: 50px;
+    background-color:darkblue;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+
+button {
+    width: 100%;
+    background-color: blue; /* Black */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+submit {
+    width: 100%;
+    background-color: #555555; /* Black */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+form {
+    
+    
+    height: 500px;
+    background-color: #e7e7e7;
+    color: black;
+}
+ table,th {
+    border:1px solid;
+    color:white;
+    background-color:lightseagreen;
+   
+}
+
+table {
+    background-color: #e7e7e7;
+    align-items: center;
+}
+

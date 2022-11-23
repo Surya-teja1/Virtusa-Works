@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<link rel="stylesheet" href="styles.css" />
+<body>
+    <form id="form">
+
+        <table id="table">
+
+            <tr align="center">
+                <th colspan="2"><font size="5">Fill The Application </font></th>
+            </tr>
+
+
+            <tr>
+                <th>
+
+                    <label>Customer Name</label>
+                </th>
+                <th><input type="text" id="custName"></th>
+            </tr>
+
+
+
+
+            <tr>
+                <th>
+
+                    <label>Customer Contact</label>
+                </th>
+                <th><input type="number" id="custCont"></th>
+            </tr>
+            
+
+
+            <tr>
+                <th>
+
+                    <label>Gender</label>
+                </th>
+                <th>
+
+                    <input type="radio" name="gender" id="gen">Male
+                    <input type="radio" name="gender" id="gen">Female
+                </th>
+            </tr>
+
+            <tr>
+                <th>Address</th>
+                <th>
+                    <textarea rows="4" cols="20" id="Address">
+                        Enter Address here...</textarea>
+                </th>
+
+            </tr>
+
+            <tr>
+                <th><label>Age</label></th>
+                <th><input type="number" id="age"></th>
+            </tr>
+
+
+            <tr>
+                <th>
+
+                    <label>Email</label>
+                </th>
+                <th><input type="email" id="email"></th>
+            </tr>
+
+
+            <tr>
+                <th>
+
+                    <label>Account Type</label>
+                </th>
+                <th>
+                    <select name="Account Type">
+                        <option value="Savings" id="AT">Savings Account</option>
+                        <option value="Current" id="AT">Current Account</option>
+                        <option value="Zero" id="AT">Zero Balance Account</option>
+
+                </th>
+            </tr>
+            <tr>
+                <th></th>
+                <th></th>
+            </tr>
+
+            <tr>
+                <th><input type="Submit" id="submit"></th>
+                <th>
+                    
+                    <input type="reset" id="submit">
+                </th>
+            </tr>
+
+        </table>
+    </form>
+    <script src="index.js"></script>
+
+</body>
+</html>
